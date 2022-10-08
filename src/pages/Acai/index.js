@@ -43,7 +43,7 @@ export default function Index() {
             <div>
               <p>O valor é igual a {Resposta}</p>
             </div>
-            <button onClick={resultadoclick}>aaaaaaaaaaaaaaaaaa</button>
+            <button onClick={resultadoclick}>Calcular</button>
      </main>
   )
 }

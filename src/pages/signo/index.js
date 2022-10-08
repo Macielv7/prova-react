@@ -5,13 +5,13 @@ import signo from '../../service/signo';
 
 export default function Index() {
 
-  const [mes, setMes] = useState('');
-  const [dia, setdia] = useState('');
+  const [Mes, setMes] = useState('');
+  const [Dia, setDia] = useState('');
 
   const [Resposta,setResposta] = useState('');
 
   function resultadoclick (){
-      const cal = signo (mes , dia )  ;
+      const cal = signo (Mes , Dia )  ;
       setResposta(cal)
   }
   
@@ -25,11 +25,11 @@ export default function Index() {
             <p>
             mes
             </p>
-            <input value={mes} onChange={ e=> setMes  (e.target.value)}/>
+            <input value={Mes} onChange={ e=> setMes  (e.target.value)}/>
 
               
             <p>dia </p>
-            <input  value={dia} onChange={ e=>setdia  (e.target.value)}/>
+            <input  value={Dia} onChange={ e=>setDia  (e.target.value)}/>
 
 
            </div>

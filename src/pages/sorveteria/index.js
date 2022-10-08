@@ -28,7 +28,7 @@ export default function Index() {
               <p> {respostas}</p>
             </div>
 
-            <button onClick={Valor}>aaaaaaaaaaaaaaaaaa</button>
+            <button onClick={Valor}>Calcular</button>
 
      </main>
   )
