@@ -5,10 +5,15 @@ export default function signo(mes, dia) {
     if(dia >= 32){
         return 'dia inválido'
     }
+    else if (dia < 0)
+    {
+        return 'dia inválido'
+    }
     else if (mes != 'setembro' && mes != 'outubro')
     {
         return 'mes inválido'
     }
+
     else if (b === true){
         return 'SIM'
     }
