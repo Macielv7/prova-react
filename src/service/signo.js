@@ -8,7 +8,7 @@ export default function signo(mes, dia) {
     else if (dia < 0)
     {
         return 'dia inválido'
-    }
+    }                         
     else if (mes != 'setembro' && mes != 'outubro')
     {
         return 'mes inválido'
