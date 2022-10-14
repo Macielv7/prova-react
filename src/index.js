@@ -8,6 +8,8 @@ import Carro from './pages/carro';
 import Salario from './pages/salario';
 import Temperatura from './pages/temperatura';
 import Sorveteria from './pages/sorveteria';
+import OrcamentoFamiliar from './pages/orcamentoFamiliar';
+import IngressosCinema from './pages/ingressosCinema';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,6 +25,8 @@ root.render(
       <Route path='/salario' element={<Salario />} />
       <Route path='/temperatura' element={<Temperatura />} />
       <Route path='/sorveteria' element={<Sorveteria />} />
+      <Route path='/orcamento' element={<OrcamentoFamiliar/>} />
+      <Route path='/inglessos' element={<IngressosCinema/>} />
 
   </Routes>
 </BrowserRouter>
