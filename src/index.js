@@ -10,6 +10,9 @@ import Temperatura from './pages/temperatura';
 import Sorveteria from './pages/sorveteria';
 import OrcamentoFamiliar from './pages/orcamentoFamiliar';
 import IngressosCinema from './pages/ingressosCinema';
+import Linha from './pages/linha';
+import Matriz from './pages/matriz';
+import NumeroNaturais from './pages/numeroNaturais';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -27,6 +30,10 @@ root.render(
       <Route path='/sorveteria' element={<Sorveteria />} />
       <Route path='/orcamento' element={<OrcamentoFamiliar/>} />
       <Route path='/inglessos' element={<IngressosCinema/>} />
+      <Route path='/linha' element={<Linha/>} />
+      <Route path='/numeroNaturais' element={<NumeroNaturais/>} />
+      <Route path='/matriz' element={<Matriz/>} />
+
 
   </Routes>
 </BrowserRouter>
