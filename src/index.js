@@ -13,6 +13,7 @@ import IngressosCinema from './pages/ingressosCinema';
 import Linha from './pages/linha';
 import Matriz from './pages/matriz';
 import NumeroNaturais from './pages/numeroNaturais';
+import Cafe from './pages/cafe';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -33,6 +34,7 @@ root.render(
       <Route path='/linha' element={<Linha/>} />
       <Route path='/numeroNaturais' element={<NumeroNaturais/>} />
       <Route path='/matriz' element={<Matriz/>} />
+      <Route path='/cafe' element={<Cafe/>} />
 
 
   </Routes>
